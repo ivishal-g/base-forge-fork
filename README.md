@@ -1,22 +1,22 @@
-# ▲ / next-forge
+# ▲ / base-forge
 
 **Production-grade Turborepo template for Next.js apps.**
 
 <div>
-  <img src="https://img.shields.io/npm/dy/next-forge" alt="" />
-  <img src="https://img.shields.io/npm/v/next-forge" alt="" />
-  <img src="https://img.shields.io/github/license/vercel/next-forge" alt="" />
+  <img src="https://img.shields.io/npm/dy/base-forge" alt="" />
+  <img src="https://img.shields.io/npm/v/base-forge" alt="" />
+  <img src="https://img.shields.io/github/license/vercel/base-forge" alt="" />
 </div>
 
 ## Overview
 
-[next-forge](https://github.com/vercel/next-forge) is a production-grade [Turborepo](https://turborepo.com) template for [Next.js](https://nextjs.org/) apps. It's designed to be a comprehensive starting point for building SaaS applications, providing a solid, opinionated foundation with minimal configuration required.
+[base-forge](https://github.com/vercel/base-forge) is a production-grade [Turborepo](https://turborepo.com) template for [Next.js](https://nextjs.org/) apps. It's designed to be a comprehensive starting point for building SaaS applications, providing a solid, opinionated foundation with minimal configuration required.
 
-Built on a decade of experience building web applications, next-forge balances speed and quality to help you ship thoroughly-built products faster.
+Built on a decade of experience building web applications, base-forge balances speed and quality to help you ship thoroughly-built products faster.
 
 ### Philosophy
 
-next-forge is built around five core principles:
+base-forge is built around five core principles:
 
 - **Fast** — Quick to build, run, deploy, and iterate on
 - **Cheap** — Free to start with services that scale with you
@@ -26,16 +26,16 @@ next-forge is built around five core principles:
 
 ## Demo
 
-Experience next-forge in action:
+Experience base-forge in action:
 
-- [Web](https://demo.next-forge.com) — Marketing website
-- [App](https://app.demo.next-forge.com) — Main application
-- [Storybook](https://storybook.demo.next-forge.com) — Component library
-- [API](https://api.demo.next-forge.com/health) — API health check
+- [Web](https://demo.base-forge.com) — Marketing website
+- [App](https://app.demo.base-forge.com) — Main application
+- [Storybook](https://storybook.demo.base-forge.com) — Component library
+- [API](https://api.demo.base-forge.com/health) — API health check
 
 ## Features
 
-next-forge comes with batteries included:
+base-forge comes with batteries included:
 
 ### Apps
 
@@ -77,10 +77,10 @@ next-forge comes with batteries included:
 
 ### Installation
 
-Create a new next-forge project:
+Create a new base-forge project:
 
 ```sh
-npx next-forge@latest init
+npx base-forge@latest init
 ```
 
 ### Setup
@@ -89,14 +89,14 @@ npx next-forge@latest init
 2. Set up required service accounts (Clerk, Stripe, Resend, etc.)
 3. Run the development server
 
-For detailed setup instructions, read the [documentation](https://www.next-forge.com/docs).
+For detailed setup instructions, read the [documentation](https://www.base-forge.com/docs).
 
 ## Structure
 
-next-forge uses a monorepo structure managed by Turborepo:
+base-forge uses a monorepo structure managed by Turborepo:
 
 ```
-next-forge/
+base-forge/
 ├── apps/           # Deployable applications
 │   ├── web/        # Marketing website (port 3001)
 │   ├── app/        # Main application (port 3000)
@@ -115,7 +115,7 @@ Each app is self-contained and independently deployable. Packages are shared acr
 
 ## Documentation
 
-Full documentation is available at [next-forge.com/docs](https://www.next-forge.com/docs), including:
+Full documentation is available at [base-forge.com/docs](https://www.base-forge.com/docs), including:
 
 - Detailed setup guides
 - Package documentation
@@ -125,7 +125,7 @@ Full documentation is available at [next-forge.com/docs](https://www.next-forge.
 
 ## Contributing
 
-We welcome contributions! See the [contributing guide](https://github.com/vercel/next-forge/blob/main/.github/CONTRIBUTING.md) for details.
+We welcome contributions! See the [contributing guide](https://github.com/vercel/base-forge/blob/main/.github/CONTRIBUTING.md) for details.
 
 ### Git Commit Messages
 
@@ -170,8 +170,8 @@ For detailed guidelines, see the [Git Commit Messages guide](https://github.com/
 
 ## Contributors
 
-<a href="https://github.com/vercel/next-forge/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=vercel/next-forge" />
+<a href="https://github.com/vercel/base-forge/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=vercel/base-forge" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
