@@ -8,7 +8,7 @@ Thank you for your interest in contributing! This document outlines the process 
 2. Create a new branch for your feature or bug fix: `git checkout -b feature/your-feature-name`
 3. Make your changes
 4. Test your changes thoroughly
-5. Commit your changes with clear, descriptive commit messages following our [commit message format](/etc/commitlint/docs/COMMIT_GUIDE.md)
+5. Commit your changes with clear, descriptive commit messages
 6. Push to your fork
 7. Submit a Pull Request
 
@@ -21,7 +21,6 @@ Thank you for your interest in contributing! This document outlines the process 
 - Include tests if applicable
 - Update documentation as needed
 - Ensure your PR follows the [project's philosophy](/docs/overview.mdx)
-- Use [Conventional Commits](/etc/commitlint/docs/COMMIT_GUIDE.md) format for all commit messages
 
 ## Code Style
 
@@ -29,38 +28,6 @@ Thank you for your interest in contributing! This document outlines the process 
 - Write clear, self-documenting code
 - Add comments only when necessary to explain complex logic
 - Use meaningful variable and function names
-
-## Commit Message Format
-
-This project follows the [Conventional Commits](/docs/GIT_COMMITS.md) specification. All commit messages must follow this format:
-
-```
-<type>(<scope>): <short summary>
-
-<body>
-
-<footer>
-```
-
-### Common Commit Types:
-- `feat`: New feature
-- `fix`: Bug fix
-- `docs`: Documentation changes
-- `style`: Code style changes (formatting, etc.)
-- `refactor`: Code refactoring without behavior changes
-- `test`: Adding or updating tests
-- `chore`: Maintenance tasks
-
-### Example:
-```
-feat(auth): add OAuth2 integration
-
-Implement OAuth2 authentication flow with support for Google and GitHub providers.
-
-Closes #123
-```
-
-For detailed guidelines, see our [commit message documentation](/docs/GIT_COMMITS.md).
 
 ## Reporting Issues
 
