@@ -1,3 +1,0 @@
-#!/usr/bin/env sh
-PATH="/opt/homebrew/bin:/Users/vishal/.nvm/versions/node/v20.20.0/bin:$PATH"
-exec pnpm test
